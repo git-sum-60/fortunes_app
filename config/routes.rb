@@ -9,5 +9,6 @@ Rails.application.routes.draw do
 
   namespace :api do
     get "/tell_your_fortune" => "fortunes#say_fortune"
+    get "/lotto" => "fortunes#lottery"
   end
 end
